@@ -8,10 +8,10 @@
 	padding: 10px;
 }
 .tab {
-	background-color: yellow;
+	background-color: pink;
 }
 .tab.extra{
-	background-color: blue;
+	background-color: yellow;
 }
 /*.main-body {
 	display: flex;
