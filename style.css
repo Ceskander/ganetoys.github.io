@@ -10,16 +10,41 @@
 	padding: 10px;
 }
 .tab {
-	background-color: pink;
+	background-color: #6d123f;
+	font-family:"Comic Sans MS";
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 20%;
 }
 .tab.extra{
-	background-color: yellow;
+	background-color: #6d123f;
+	font-family:"Comic Sans MS";
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 61%;
 }
 .main-body {
 	font-family: "Comic Sans MS";
 	color: white;
-
+	font-size: 20px;
 }
+a {
+	color: white;
+}
+h1 {
+	font-size: 80px;
+}
+/*Below changes the color of the links if user hovers or visits them*/
+/*a:visited {
+  color: #636;
+}*/
+/*a:hover, a:active, a:focus {
+  color:#c33;
+}*/
 body, html {
 	height: 100%;
 }
