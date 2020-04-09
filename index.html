@@ -5,26 +5,58 @@
 	<title class = "titles">Gane Toys</title>
 <!-- 	<img src="images/gane_toys_logo.png" style = "width:50px;height:50px;" > -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type = "text/javascript" src="my_script.js"></script>
 </head>
 <body>
 	<div class = "hero-image">
 		<div class = "hero-text">
 			<div class = "header">
-				<h1>
+				<h2>
 					<img src="images/gane_toys_logo.png" style = "width:70px;height:70px;">
 					GANE TOYS	
-				</h1>
+				</h2>
 			</div>
-			<div class = "nav-bar">
+				<!-- Tab links -->
+			<div class="tab">
+			  <button class="tablinks" onclick="openCity(event, 'Home')" id = "defaultOpen">Home</button>
+			  <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+			  <button class="tablinks" onclick="openCity(event, 'Videos')">Videos</button>
+			</div>
+
+				<!-- Tab content -->
+
+			<div id="Home" class="tabcontent">
+				<h1>Home</h1>	
+			  	<div class = "main-body">
+				<div class ="paragraph">
+					<p>
+						Gane Toys will give future generations the foundations of conversational language learning and a new best friend. Through the use of voice recognition, our stuffed animals will orally translate words and phrases that a child uses daily and can build into deeper conversational language as the child learns.
+					</p>
+				</div>
+			</div>
+			</div>
+
+			<div id="Description" class="tabcontent">
+			  <h1>Description</h1>
+			  <p>Paris is the capital of France.</p>
+			</div>
+
+			<div id="Videos" class="tabcontent">
+			  <h1>Vidoes</h1>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>
+
+
+<!-- 			<div class = "nav-bar">
 				<div class ="tab">
 					<a href="https://www.linkedin.com/company/gane-toys/">Gane Toys LinkedIn</a>
 				</div>
 				<div class = "tab extra">
 					<a href="https://github.com">Contact Us</a>
 				</div>
-			</div>
+			</div> -->
 
-			<div class = "main-body">
+			<div class = "main-body1">
 				<div>
 					<p>
 						Gane Toys will give future generations the foundations of conversational language learning and a new best friend. Through the use of voice recognition, our stuffed animals will orally translate words and phrases that a child uses daily and can build into deeper conversational language as the child learns.
