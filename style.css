@@ -42,11 +42,13 @@
 	color: white;
 	font-size: 20px;
 }
-
+.description_info{
+	font-size:20px;
+}
 /********************************TABS**************************************/
 .tab{
 	overflow: hidden;
-	border: 2px solid #ccc;
+	border: 3px solid #ccc;
 	background-color: #6d123f;
 }
 /* Style the buttons that are used to open the tab content */
@@ -56,7 +58,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 20px;
   transition: 0.2s;
   color: white;
   font-family:"Comic Sans MS";
@@ -65,7 +67,7 @@
   justify-content:center;
 }
 
-#Home, #Description, #Videos{
+#Home, #Description{
 	font-family:"Comic Sans MS";
 	color: white;
 }
@@ -84,10 +86,18 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: none;
   border-top: none;
 }
 /********************************TABS**************************************/
+/*********************Videos_Gallery********************/
+.videos_gallery{
+	padding: 5px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(430px, auto));
+	grid-gap: 1rem;
+}
+/********************Videos_Gallery*********************/
 a {
 	color: white;
 }
