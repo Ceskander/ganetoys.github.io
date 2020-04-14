@@ -7,30 +7,6 @@
 	 /*top: %;
 	 left: 10%;*/
 }
-/*.nav-bar {ss
-	display: flex;
-}
-.nav-bar > div {
-	padding: 15px;
-}*/
-/*.tab {
-	background-color: #6d123f;
-	font-family:"Comic Sans MS";
-	font-size: 30px;
-	text-align: center;
-	position: absolute;
-	top: 40%;
-	left: 15%;
-}
-.tab.extra{
-	background-color: #6d123f;
-	font-family:"Comic Sans MS";
-	font-size: 30px;
-	text-align: center;
-	position: absolute;
-	top: 40%;
-	left: 62%;
-}*/
 
 .main-body {
 	font-family: "Comic Sans MS";
@@ -48,8 +24,8 @@
 /********************************TABS**************************************/
 .tab{
 	overflow: hidden;
-	border: 3px solid #ccc;
-	background-color: #6d123f;
+	border: 3px solid white;
+	background-color: #ba5a87;
 }
 /* Style the buttons that are used to open the tab content */
 .tab button {
@@ -67,7 +43,7 @@
   justify-content:center;
 }
 
-#Home, #Description{
+#Home, #About_Us, #Our_Story{
 	font-family:"Comic Sans MS";
 	color: white;
 }
@@ -98,39 +74,12 @@
 	grid-gap: 1rem;
 }
 /********************Videos_Gallery*********************/
-a {
-	color: white;
+
+.about_info{
+	font-size: 20px;
 }
-/*h1 {
-	font-size: 80px;
-}*/
-/*Below changes the color of the links if user hovers or visits them*/
-/*a:visited {
-  color: #636;
-}*/
-/*a:hover, a:active, a:focus {
-  color:#c33;
-}*/
+
 body, html {
 	height: 100%;
-}
-.hero-image{
-	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/danke.png");
-	/* Set a specific height */
-	height: 100%;
-	/* Position and center the image to scale nicely on all screens */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*position: relative;*/
-}
-/* Place text in the middle of the image */
-.hero-text {
-  /*text-align: center;*/
-/*  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-  color: white;
+	background-color: #77bcd4;
 }
