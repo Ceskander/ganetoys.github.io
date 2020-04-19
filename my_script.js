@@ -25,6 +25,24 @@ function openTab(evt, tabName) {
 }
 
 
+// adds the shadow under the navigation bar
+$(window).scroll(function() {
+  // If scrolled past threshold
+    if ($(window).scrollTop() > 10) {
+      // Add class to nav
+        $('#tab').addClass('mini-nav');
+        $('.tablinks').addClass('tablinks-mini');
+        $('.header').addClass('header-mini');
+    } else { // If user scrolls back to top
+      // remove it
+        $('#tab').removeClass('mini-nav');
+        $('.tablinks').removeClass('tablinks-mini');
+        $('.header').addClass('header-mini');
+    }
+});
+
+
 window.onload=function(){
     openTab(event, 'Home');
 };
+
