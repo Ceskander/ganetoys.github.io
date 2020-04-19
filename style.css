@@ -1,11 +1,11 @@
 
 .main-body {
-	font-family: "Comic Sans MS";
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: black;
 	font-size: 20px;
 }
 .main-body1 {
-	font-family: "Comic Sans MS";
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: white;
 	font-size: 20px;
 }
@@ -70,7 +70,7 @@
   padding: 10px 20px;
   transition: 0.1s;
   color: black;
-  font-family:"Comic Sans MS";
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 30px;
   align-items: center;
   justify-content:center;
@@ -82,7 +82,7 @@
 
 .header {
 	/*display: flex;*/
-	font-family: "Comic Sans MS";
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: black;
 	font-size: 60px;
 	/*margin: 0 auto;*/
@@ -99,7 +99,7 @@
 #Home, #About_Us, #Our_Story, #Meet_Danke{
 	top: 110px;
 	position: relative;
-	font-family:"Comic Sans MS";
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: black;
 }
 
