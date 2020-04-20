@@ -28,6 +28,8 @@
 			  <button class="tablinks" onclick="openTab(event, 'Meet_Danke')">Meet Danke</button>
 			  <button class="tablinks" onclick="openTab(event, 'Our_Story')">Our Story</button>
 			  <button class="tablinks" onclick="openTab(event, 'About_Us')">About Us</button>
+			  <button class="tablinks" onclick="openTab(event, 'Contact_Us')">Contact Us</button>
+
 
 			</div>
 
@@ -136,6 +138,37 @@
 				</p>
 				</div>
 			</div>
+
+			<div id="Contact_Us" class="tabcontent">
+				<div class = "container">
+					<link rel="stylesheet" type="text/css" href="contact_us.css">
+					<h1>Contact Us</h1>
+					<p> Email: ganetoys@gmail.com </p>
+					<form action="action_page.php">
+
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+						<label for="country">Country</label>
+						<select id="country" name="country">
+							<option value="usa">USA</option>
+							<option value="canada">Canada</option>
+							<option value="australia">Australia</option>
+						</select>
+
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+						<input type="submit" value="Submit">
+
+					</form>
+				</div>
+			</div>
+
+
 
 		</div>
 	</div>
